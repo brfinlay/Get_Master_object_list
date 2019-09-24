@@ -11,7 +11,7 @@ def master_list(list1, list2):
 
 a = master_list(qd_dataset, aoa)
 
-import Pandas as import pd
+import Pandas as pd
 df = pd.DataFrame()
 df['Words'] = a
 df.to_csv('/Users/brendafinlay/Documents/Cusack Lab/master_object_list.csv', index=False)
